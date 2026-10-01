@@ -1,0 +1,13 @@
+{
+  "name": "nordflow-tasks",
+  "version": "1.0.0",
+  "description": "NordFlow Tasks — внутренний трекер проектов и задач (MVP)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "rm -rf data && node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}
